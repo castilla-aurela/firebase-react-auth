@@ -15,7 +15,7 @@ export function AuthProvider({ children}) {
     function signup(email, password){
         //auth = getAuth();
         console.log(email, password)
-        return createUserWithEmailAndPassword(auth, email, password)//In case I wan to use another server just change this line
+        return createUserWithEmailAndPassword(auth, email, password)
         //.then((userCredential) =>{
         //    const user = userCredential.user;
       //  })
